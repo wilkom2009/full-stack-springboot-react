@@ -12,7 +12,7 @@ class TodoComponent extends Component {
         this.state = {
             id: this.props.match.params.id,
             description: '',
-            targetDate: moment(new Date()).format('YYYY-MM-DD')
+            targetDate: moment(new Date()).format('DD-MM-YYYY')
         }
 
         this.onSubmit = this.onSubmit.bind(this)
@@ -29,7 +29,7 @@ class TodoComponent extends Component {
             .then(response => {
                 this.setState({
                     description: response.data.description,
-                    targetDate: moment(response.data.targetDate).format('YYYY-MM-DD')
+                    targetDate: moment(response.data.targetDate).format('DD-MM-YYYY')
                 })
             })
     }

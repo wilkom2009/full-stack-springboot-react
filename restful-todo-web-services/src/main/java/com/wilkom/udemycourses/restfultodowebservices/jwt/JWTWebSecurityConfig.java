@@ -27,7 +27,7 @@ public class JWTWebSecurityConfig extends WebSecurityConfigurerAdapter {
     private JwtUnAuthorizedResponseAuthenticationEntryPoint jwtUnAuthorizedResponseAuthenticationEntryPoint;
 
     @Autowired
-//    private UserDetailsService jwtInMemoryUserDetailsService;
+//    private UserDetailsService jwtInMemoryUserDetailsService; 
     private UserDetailsService jwtUserDetailsJpaService;
 
     @Autowired
