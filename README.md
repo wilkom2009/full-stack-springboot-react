@@ -2,8 +2,11 @@
 Full stack project, two modules : restful-todo-web-services and mytodo-app.
 
 ## Frontend : mytodo-app
+
 React frontend which consumes a REST Api.
+
 ###Technologies
+
 React
 JWT
 Bootstrap
@@ -13,6 +16,7 @@ Bootstrap
 RESTfull api that serves the services to the frontend.
 
 ###Technologies
+
 Java
 JWT
 Spring security
